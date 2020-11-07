@@ -16,6 +16,8 @@ $.ajax({
     for (i = 0; i < parseInt(recordEl);i++) {
     var articleDiv =   $("<div>")
     var articleHeading = $("<h1>")
+
+    articleHeading.text(responce.docs[i].headline.main)
     
     var articleDesc = $("<p>")
     var articleYear = $("<p>") 
