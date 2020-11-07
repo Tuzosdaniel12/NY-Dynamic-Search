@@ -13,6 +13,13 @@ $.ajax({
     method: "GET"
 }).then(function(response) {
     console.log(response)
+    for (i = 0; i < parseInt(recordEl);i++) {
+    var articleDiv =   $("<div>")
+    var articleHeading = $("<h1>")
+    var articleDesc = $("<p>")
+    var articleYear = $("<p>") 
+    }
+
 })
 
 })
