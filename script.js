@@ -17,8 +17,8 @@ $.ajax({
     var articleDiv =   $("<div>")
     var articleHeading = $("<h1>")
 
-    articleHeading.text(responce.docs[i].headline.main)
-    
+    articleHeading.text(response.docs[i].headline.main)
+
     var articleDesc = $("<p>")
     var articleYear = $("<p>") 
     }
